@@ -91,7 +91,7 @@ export const Footer = () => {
                   <a
                     key={item.title}
                     href={item.href}
-                    className="text-white/80 text-[12px] hover:text-white transition-colors"
+                    className="text-white/80 max-lg:text-[12px] hover:text-white transition-colors"
                   >
                     {item.title}
                   </a>
