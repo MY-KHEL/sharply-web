@@ -79,7 +79,7 @@ export const Footer = () => {
         trigger: sectionRef.current,
         start: "top 80%",
         end:'+=200',
-        markers:true, 
+        // markers:true, 
         toggleActions:'play none none reverse'
         
       },
