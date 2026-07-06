@@ -75,9 +75,11 @@ export const Footer = () => {
   useEffect(() => {
     const tl = gsap.timeline({
       
-      scrollTrigger: {
+      scrollTrigger:{
         trigger: sectionRef.current,
         start: "top 80%",
+        end:'+=200',
+        markers:true, 
         toggleActions:'play none none reverse'
         
       },
@@ -94,8 +96,7 @@ export const Footer = () => {
         y: 0,
         
       },
-    )
-      .fromTo(
+    ).fromTo(
         textRef.current,
         {
           opacity: 0,
@@ -105,20 +106,18 @@ export const Footer = () => {
           opacity: 1,
           y: 0,
           duration: 1,
-        },
-       
-      )
-      .fromTo(
+        }, 
+      ) .fromTo(
         linkRef.current,
         {
           opacity: 0,
         },
         {
           opacity: 1,
-        },
+        },"-=0.1"
         
-      )
-      .fromTo(
+        
+      ).fromTo(
         lastRef.current,
         {
           opacity: 0,
