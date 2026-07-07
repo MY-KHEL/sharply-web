@@ -124,7 +124,7 @@ export function HeroSection() {
   return (
     <div className=" px-8 lg:px-30 pb-15 pt-35 relative max-lg:flex-col flex items-center justify-between w-full  overflow-hidden">
       <div className="w-full  ">
-        <div className="flex flex-col  max-lg:text-center gap-4 mx-auto max-w-[430px] 2xl:max-w-[540px]">
+        <div className="flex flex-col  max-lg:text-center gap-4 max-lg:mx-auto max-w-[430px] 2xl:max-w-[540px]">
           <p
             ref={buttonRef}
             className="font-semibold leading-[140%] max-lg:mx-auto w-fit rounded-lg z-20 bg-[#EFF8FC] 2xl:text-2xl  text-[#48B7DD] border border-[#48B7DD] px-4 py-2"
@@ -150,7 +150,7 @@ export function HeroSection() {
           </p>
         </div>
       </div>
-      <div className="w-full  flex justify-center z-20 max-lg:hidden ">
+      <div className="w-full lg:pr-40  flex justify-end max-lg:justify-center z-20 max-lg:hidden ">
         <div
           ref={imageRef}
           className="relative aspect-240/505 w-full max-w-[240px] 2xl:max-w-[300px]"
