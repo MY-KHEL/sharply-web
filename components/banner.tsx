@@ -203,7 +203,7 @@ export function Banner() {
               Move Sharply
             </h1>
           </div>
-          <p ref={textRef} className="text-white text-[19px] leading-[140%]">
+          <p ref={textRef} className="max-md:text-center  text-white text-[19px] leading-[140%]">
             Free to download. Live on UNILAG & LUTH now, with more campuses
             coming soon.
           </p>

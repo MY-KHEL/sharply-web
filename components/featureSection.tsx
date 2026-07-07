@@ -49,7 +49,7 @@ export function FeatureSection() {
       {features.map((feature, index) => (
         <div
           key={feature.feature}
-          className={`flex flex-col lg:items-center gap-2  text-white ${index !== features.length - 1 ? "lg:pr-15 lg:border-r border-white" : "pr-0"}`}
+          className={`flex flex-col md:items-start lg:items-center gap-2  text-white ${index !== features.length - 1 ? "lg:pr-15 lg:border-r border-white" : "pr-0"}`}
         >
           <Counter value={feature.value} suffix={feature.suffix} />
           <p>{feature.feature}</p>

@@ -140,8 +140,8 @@ export function WhySharply() {
             {feature.index.map((item, index) => (
               <div className="lg:max-w-[293px] " key={index}>
                 <div className=" flex flex-col gap-1">
-                  <h1 className="text-[19px] font-semibold">{item.title}</h1>
-                  <p className="text-[#878787] leadnig-[145%]">
+                  <h1 className="text-[19px] max-md:text-center font-semibold">{item.title}</h1>
+                  <p className=" max-md:text-center  text-[#878787] leadnig-[145%]">
                     {item.content}
                   </p>
                 </div>

@@ -44,7 +44,7 @@ export function NavBar() {
       </div>
 
       <Link href={"https://sharply.quadstores.com/register"} className = ''>
-        <button className=" cursor-pointer text-white bg-[#48B7DD] font-semibold leading-[140%] max-lg:py-3 max-lg:px-6 rounded-lg px-8 py-4">  Register</button>
+        <button className=" relative cursor-pointer text-white bg-[#48B7DD] font-semibold leading-[140%] max-lg:py-3 max-lg:px-6 rounded-lg px-8 py-4">  Register</button>
       </Link>
     </div>
   );

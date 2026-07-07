@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SplitType from "split-type";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 export function HeroSection() {
@@ -124,7 +125,7 @@ export function HeroSection() {
   return (
     <div className=" px-8 lg:px-30 pb-15 pt-35 relative max-lg:flex-col flex items-center justify-between w-full  overflow-hidden">
       <div className="w-full  ">
-        <div className="flex flex-col  max-lg:text-center gap-4 max-lg:mx-auto max-w-[430px] 2xl:max-w-[540px]">
+        <div className="flex flex-col z-20  max-lg:text-center gap-4 max-lg:mx-auto max-w-[430px] 2xl:max-w-[540px]">
           <p
             ref={buttonRef}
             className="font-semibold leading-[140%] max-lg:mx-auto w-fit rounded-lg z-20 bg-[#EFF8FC] 2xl:text-2xl  text-[#48B7DD] border border-[#48B7DD] px-4 py-2"
@@ -149,6 +150,9 @@ export function HeroSection() {
             minutes.
           </p>
         </div>
+            <Link href={"https://sharply.quadstores.com/register"} className = ''>
+        <button className="relative  mt-6 w-full z-20  cursor-pointer text-white bg-[#48B7DD] font-semibold leading-[140%] max-lg:py-3 max-lg:px-6 rounded-lg px-8 py-4">  Register</button>
+      </Link>
       </div>
       <div className="w-full lg:pr-40  flex justify-end max-lg:justify-center z-20 max-lg:hidden ">
         <div
@@ -170,7 +174,7 @@ export function HeroSection() {
       ></div>
       <div
         ref={yellowCircleRef}
-        className="absolute  aspect-square w-[254px] rounded-full bg-[#FFCC00]/30 max-lg:-bottom-20 max-lg:-left-20 bottom-30 right-10"
+        className="absolute  aspect-square w-[254px] rounded-full bg-[#FFCC00]/30 max-lg:-bottom-20 max-lg:-left-20 bottom-30  right-10"
       ></div>
     </div>
   );
