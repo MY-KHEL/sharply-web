@@ -149,10 +149,10 @@ export function HeroSection() {
             parcels moved across UNILAG & LUTH by verified student runners, in
             minutes.
           </p>
-        </div>
             <Link href={"https://sharply.quadstores.com/register"} className = ''>
         <button className="relative  mt-6 w-full z-20  cursor-pointer text-white bg-[#48B7DD] font-semibold leading-[140%] max-lg:py-3 max-lg:px-6 rounded-lg px-8 py-4">  Register</button>
       </Link>
+        </div>
       </div>
       <div className="w-full lg:pr-40  flex justify-end max-lg:justify-center z-20 max-lg:hidden ">
         <div
